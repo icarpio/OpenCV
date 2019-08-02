@@ -2,7 +2,7 @@
 """
 Created on Wed Jul 31 11:28:26 2019
 
-@author: Yvan
+@author: Icarpio
 """
 
 import cv2
@@ -22,7 +22,6 @@ def resized(picture):
     cv2.imshow("Resized image", resized)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-    
-resized('vacas.jpg')
-resized('stranger.jpg')
-resized('char.jpg')
+
+image = input("Introduce la ruta de la imagen y su extension")
+resized(image)
