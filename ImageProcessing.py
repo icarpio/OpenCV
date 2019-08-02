@@ -10,7 +10,7 @@ def display_image(img, cmap=None):
     ax.imshow(img,cmap)
 
 #Mostrar la imagen en RGB
-img = cv2.imread(input('Introduce la ruta de la imagen y su extension'),0)
+img = cv2.imread(input('Introduce la ruta de la imagen y su extension'))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 display_image(img)
 
