@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Tue Aug 20 21:06 2019
+
+@author: Icarpio
+"""
 from random import randint
 import pgzrun
 
