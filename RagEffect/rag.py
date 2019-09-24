@@ -25,7 +25,7 @@ def merge_mean_color(graph, src, dst):
 
 img = io.imread('persona.jpg')
 
-labels = segmentation.slic(img, compactness=30, n_segments=400)  
+labels = segmentation.slic(img, compactness=30, n_segments=500)  
 g = graph.rag_mean_color(img, labels) 
 labels2 = graph.merge_hierarchical(labels, g, thresh=35, rag_copy=False,
                                    in_place_merge=True,
