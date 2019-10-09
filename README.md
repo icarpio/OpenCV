@@ -1,9 +1,3 @@
 OPENCV - Procesado de Imagenes
 
-
-pip install opencv-contrib-python
-
-#Games
-
-pip install pygame
-pip install pgzero
+pip install opencv-contrib-python==4.1.0.25
